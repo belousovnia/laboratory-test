@@ -1,0 +1,40 @@
+.first-section {
+  background-image: url(../media/Lunch_atop_a_Skyscraper\ 1.jpg);
+  background-position: 50% 50%;
+}
+
+.first-section__filter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 315px;
+  padding-bottom: 315px;
+  background-color: #2A6CEA;
+  opacity: 0.8;
+}
+
+.first-section__content-container {
+  max-width: 748px;
+}
+
+.first-section__title {
+  font-size: 52px;
+  color: #ffffff;
+}
+
+.first-section__p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=main.css.map */
