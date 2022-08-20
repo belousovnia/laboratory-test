@@ -1,0 +1,40 @@
+@import './constant.scss';
+
+.fifth-section {
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background-color: $color-extralight-gray;
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-section__container {
+  max-width: 1296px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+
+.fifth-section__tile {
+  padding-right: 32px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fifth-section {
+    display: block;
+  }
+}

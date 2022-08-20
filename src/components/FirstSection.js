@@ -11,7 +11,7 @@ export default function FirstSection() {
           <p className='first-section__p'>
             Сделай круто тестовое задание и у тебя получится
           </p>
-          <button className='main-button'>
+          <button className='main-button main-button_white'>
             Проще простого!
           </button>
         </div>

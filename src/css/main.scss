@@ -1,13 +1,40 @@
 @import './header.scss';
 @import './first-section.scss';
 @import './constant.scss';
+@import './fonts/stylesheet.css';
+@import './button.scss';
+@import './second-section.scss';
+@import './third-section.scss';
+@import './fourth-section.scss';
+@import './fifth-section.scss';
+@import './sixth-section.scss';
 
 body {
   margin: 0;
+  // width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Graphik LCG';
+  box-sizing: border-box;
 }
 
 .app {
-  width: 100vw;
-  height: 100vh;
-  // font-family: ;
+  margin-right: calc(-1 * (100vw - 100%));
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding-right: 21px;
+  padding-left: 21px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-top: 1px solid $color-light-grey;
+
+  h1 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+  }
 }

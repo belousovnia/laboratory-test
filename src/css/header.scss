@@ -1,0 +1,157 @@
+@import './constant.scss';
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 76px;
+  padding-left: 17px;
+  padding-right: 17px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__circle_primory {
+  background-color: $color-primory;
+  position: relative;
+  left: 13px;
+}
+
+.logo__circle_gray {
+  background-color: $color-light-grey;
+}
+
+.logo__name {
+  font-size: 20px;
+  color: $color-white;
+  margin: 0;
+  margin-left: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 16;
+  color: $color-white;
+  cursor: pointer;  
+  margin-right: 24px;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+  max-width: 375px;
+  height: 100%;
+  width: 100%;
+  background-color: $color-white;
+  color: $color-gray;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.sidebar_off {
+  right: -375px;
+  transition: 0.3s;
+}
+
+.sidebar-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  box-sizing: border-box;
+  border-bottom: 1px solid $color-light-grey;
+
+  .logo__name {
+    color: $color-black;
+  }
+}
+
+.burger-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  height: 62px;
+  width: 62px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cross-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+
+.cross-button__cross {
+  width: 26px;
+  height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header__nav {
+    display: none;
+  }
+  
+  .burger-button {
+    display: flex;
+  }
+}
+
+.sidebar-header__nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar-header__link {
+  padding: 16px;
+  font-size: 18px;
+  color: $color-gray;
+  font-weight: 400;
+  border-bottom: 1px solid $color-light-grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

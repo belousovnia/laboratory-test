@@ -1,0 +1,38 @@
+@import './constant.scss';
+
+.main-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: $color-primory;
+  color: $color-white;
+};
+
+.main-button:hover {
+  background-color: $color-primory-hover;
+}
+
+.main-button_white {
+  background-color: $color-light-grey;
+  color: $color-black;
+}
+
+.main-button_white:hover {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 39px;
+  padding-right: 39px;
+  background-color: $color-light-grey;
+  background-color: $color-white;
+  border: 1px solid $color-mid-grey;
+}
+
+.main-button_off {
+  background-color: $color-light-grey;
+  color: $color-black;
+  pointer-events: none;
+}

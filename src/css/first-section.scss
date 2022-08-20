@@ -3,6 +3,10 @@
 .first-section {
   background-image: url(../media/Lunch_atop_a_Skyscraper\ 1.jpg);
   background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 .first-section__filter {
@@ -10,22 +14,45 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 315px;
-  padding-bottom: 315px;
-  background-color: $color-primory;
-  opacity: 0.8;
+  align-items: center;
+  background-color: $color-primory-opacity;
+  box-sizing: border-box;
 }
 
 .first-section__content-container {
   max-width: 748px;
+  opacity: 1;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .first-section__title {
   font-size: 52px;
   color: $color-white;
+  margin: 0;
+  margin-bottom: 18px;
 }
 
 .first-section__p {
  font-size: 18px;
  color: $color-white;
+ margin: 0;
+ margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .first-section__title {
+    font-size: 32px;
+  }
+  
+  .first-section__p {
+   font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .first-section__title {
+    font-size: 24px;
+  }
 }
