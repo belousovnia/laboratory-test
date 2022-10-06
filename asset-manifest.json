@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/laboratory-test/static/css/main.6cf42be9.css",
-    "main.js": "/laboratory-test/static/js/main.93cd6727.js",
+    "main.js": "/laboratory-test/static/js/main.cd26aafa.js",
     "static/js/787.d855bf90.chunk.js": "/laboratory-test/static/js/787.d855bf90.chunk.js",
     "static/media/Lunch_atop_a_Skyscraper 1.jpg": "/laboratory-test/static/media/Lunch_atop_a_Skyscraper 1.0c337efc6dc6c3210541.jpg",
     "static/media/GraphikLCG-BoldItalic.eot": "/laboratory-test/static/media/GraphikLCG-BoldItalic.b756b55712c56d3769ad.eot",
@@ -78,16 +78,16 @@
     "static/media/GraphikLCG-Regular.woff2": "/laboratory-test/static/media/GraphikLCG-Regular.92a1ff709799ec31f9f0.woff2",
     "static/media/GraphikLCG-Thin.woff2": "/laboratory-test/static/media/GraphikLCG-Thin.1fb21de006aaa091fd82.woff2",
     "static/media/track.png": "/laboratory-test/static/media/track.197ed37341fce55a2a5b.png",
-    "static/media/plus.svg": "/laboratory-test/static/media/plus.9f0ef682031fad5f65ff99e45eba0e49.svg",
+    "static/media/plus.svg": "/laboratory-test/static/media/plus.db785392d2ef8027301bed46fce773db.svg",
     "index.html": "/laboratory-test/index.html",
-    "static/media/no.svg": "/laboratory-test/static/media/no.2f40a05a09d549c94309352d57846cb1.svg",
-    "static/media/yes.svg": "/laboratory-test/static/media/yes.08f9dd6ebb3d469255054072841a40ff.svg",
+    "static/media/no.svg": "/laboratory-test/static/media/no.bad2af672d8e102adb39f52d0cd80280.svg",
+    "static/media/yes.svg": "/laboratory-test/static/media/yes.44789c2f4c672227526ee09ececc7514.svg",
     "main.6cf42be9.css.map": "/laboratory-test/static/css/main.6cf42be9.css.map",
-    "main.93cd6727.js.map": "/laboratory-test/static/js/main.93cd6727.js.map",
+    "main.cd26aafa.js.map": "/laboratory-test/static/js/main.cd26aafa.js.map",
     "787.d855bf90.chunk.js.map": "/laboratory-test/static/js/787.d855bf90.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cf42be9.css",
-    "static/js/main.93cd6727.js"
+    "static/js/main.cd26aafa.js"
   ]
 }
